@@ -1,0 +1,50 @@
+body {
+	background-color: #cecece;
+}
+
+main {
+	margin: 10px auto;
+	width: 960px;
+	min-height: 500px;
+	min-width: 500px;
+	text-align: center;
+}
+
+b.ball {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 30px auto 0;
+	background-color: black;
+	border-radius: 50%;
+	box-shadow: inset -5px -5px 10px rgba(251,123,0,.5);
+	position: absolute;
+    left: 49.35%;
+    top: 217px;
+    transform: translateY(-180px);
+
+    -webkit-animation: rotationAnimation 4s linear 3;
+    -moz-animation: rotationAnimation 4s linear 3;
+    -o-animation: rotationAnimation 4s linear 3;
+    animation: rotationAnimation 4s linear 3;
+}
+
+@-webkit-keyframes rotationAnimation {
+    from { -webkit-transform: rotate(0deg) translateY(-180px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateY(-180px) rotate(-360deg); }
+}
+
+@-moz-keyframes rotationAnimation {
+    from { -moz-transform: rotate(0deg) translateY(-180px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateY(-180px) rotate(-360deg); }
+}
+
+@-o-keyframes rotationAnimation {
+    from { -o-transform: rotate(0deg) translateY(-180px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateY(-180px) rotate(-360deg); }
+}
+
+@keyframes rotationAnimation {
+    from { transform: rotate(0deg) translateY(-180px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateY(-180px) rotate(-360deg); }
+}

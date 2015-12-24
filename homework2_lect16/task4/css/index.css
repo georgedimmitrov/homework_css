@@ -1,0 +1,39 @@
+#container {
+	margin: 0px auto;
+	width: 360px;
+}
+
+header {
+	background-color: #497E7E;
+	min-height: 50px;
+	margin-bottom: 0.3em;
+}
+
+#container > section {
+	min-height: 250px;
+	display: inline-block;
+	width: 100%;
+}
+
+#container > section > * {
+	float: left;
+}
+
+#container > section > aside {
+	background-color: #D700AC;
+	min-height: 250px;
+	width: 29%;
+	margin-right: 2%;
+}
+
+#container > section > main {
+	background-color: #49FF00;
+	min-height: 250px;
+	width: 69%;
+
+}
+
+footer {
+	background-color: #0049FF;
+	min-height: 50px;
+}

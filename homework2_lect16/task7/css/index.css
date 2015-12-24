@@ -1,0 +1,266 @@
+#container {
+	margin: 0px auto;
+	width: 1170px;
+	
+}
+
+header {
+	background-color:#423C3C;
+	color: #fff;
+	padding-left: 50px;
+	min-height: 70px;
+	display: inline-block;
+	width: 100%;
+}
+
+#top_right_nav {
+	position: relative;
+	float: right;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-right: 20px;
+	min-height: 20px;
+
+}
+
+#central_nav {
+	position: relative;
+	background-color: #f73a4c;
+	color: #fff;
+	margin-top: 0px;
+	width: 1220px;
+	min-height: 15px;
+	padding-top: 90px;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#central_nav ul li a {
+	color: #fff;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+
+ul {
+	list-style-type: none;
+	margin-top: -50px;
+}
+
+ul li {
+	display: inline;
+	padding-right: 0.8em;
+
+}
+
+a.active {
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #BB9F9F;
+}
+
+#first_image {
+	margin-top: -18px;
+}
+
+#second_image {
+	margin-top: -5px;
+}
+
+#images_effects {
+	width: 1220px;
+	min-height: 800px;
+	background-color: #1f2324;
+	margin-top: -5px;
+}
+
+#images_effects > header {
+	box-sizing: border-box;
+	background-color: #1f2324;
+	padding-top: 1.3em;
+}
+
+#images_effects > header > h1 {
+	text-align: center;
+}
+
+#images_effects > div {
+	display: inline-block;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 40px;
+	padding: 0px auto;
+	width: 24%;
+}
+
+#img1 {
+	background-image: url("../images/i_1_small.jpg");
+	min-height: 200px;
+	background-position: center center;
+	width: 120px;
+	height: 200px;
+	background-repeat: no-repeat;	
+}
+
+#img1:hover {
+	background-image: url("../images/i_1.jpg");
+	position: center center;
+	width: 213px;
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+#img2 {
+	background-image: url("../images/i_2_small.jpg");
+	min-height: 200px;
+	background-position: center center;
+	width: 120px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+#img2:hover {
+	background-image: url("../images/i_2.jpg");
+	position: center center;
+	width: 213px;
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+#img3 {
+	background-image: url("../images/i_3_small.jpg");
+	min-height: 200px;
+	background-position: center center;
+	width: 120px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+#img3:hover {
+	background-image: url("../images/i_3.jpg");
+	position: center center;
+	width: 213px;
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+#img4 {
+	background-image: url("../images/i_4_small.jpg");
+	min-height: 200px;
+	background-position: center center;
+	width: 120px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+#img4:hover {
+	background-image: url("../images/i_4.jpg");
+	position: center center;
+	width: 213px;
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+#img5 {
+	background-image: url("../images/i_5_small.jpg");
+	min-height: 200px;
+	background-position: center center;
+	width: 120px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+#img5:hover {
+	background-image: url("../images/i_5.jpg");
+	position: center center;
+	width: 213px;
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+#img6 {
+	background-image: url("../images/i_6_small.jpg");
+	min-height: 200px;
+	background-position: center center;
+	width: 120px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+#img6:hover {
+	background-image: url("../images/i_6.jpg");
+	position: center center;
+	width: 213px;
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+#img7 {
+	background-image: url("../images/i_7_small.jpg");
+	min-height: 200px;
+	background-position: center center;
+	width: 120px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+#img7:hover {
+	background-image: url("../images/i_7.jpg");
+	position: center center;
+	width: 213px;
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+#img8 {
+	background-image: url("../images/i_8_small.jpg");
+	min-height: 200px;
+	background-position: center center;
+	width: 120px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+#img8:hover {
+	background-image: url("../images/i_8.jpg");
+	position: center center;
+	width: 213px;
+	height: 355px;
+	background-repeat: no-repeat;
+}
+
+@media all and (max-width: 1170px) {
+	#container {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 832px) {
+	body {	
+		background-image: url("../images/movies_site_tablet.jpg");
+		overflow: visible;
+		min-height: 7600px;
+	}
+
+	#container {
+		display: none;
+		overflow: auto;
+	}
+}
+
+@media all and (max-width: 400px) {
+	body {	
+		background-image: url("../images/mobile_site_phone_menu_closed.png");
+		overflow: visible;
+		min-height: 961px;
+	}
+
+	#container {
+		display: none;
+		overflow: auto;
+	}
+}
